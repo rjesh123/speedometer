@@ -1,0 +1,59 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.speedometer-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speedometer-image {
+  width: 50%;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  text-align: center;
+}
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 32px;
+  text-align: center;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.acc-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.brake-button {
+  background-color: transparent;
+  border: solid 2px #94a3b8;
+  border-radius: 15px;
+  padding: 15px;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 26px;
+  cursor: pointer;
+}
